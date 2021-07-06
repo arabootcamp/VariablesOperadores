@@ -20,7 +20,7 @@ if (!isNaN(num1) && !isNaN(num2) && num1 > 0 && num2 > 0) {
   document.write(`<p>Resta: ${(subtraction).toFixed(2)} <p>`);
   document.write(`<p>Multiplicación: ${(multiplication).toFixed(2)} <p>`);
   document.write(`<p>División: ${(division).toFixed(2)} <p>`);
-  document.write(`<p>Módulo: ${module} <p>`);
+  document.write(`<p>Módulo: ${(module).toFixed(2)} <p>`);
   document.write(`<button class="btn btn-primary my-5" onclick="location='index.html'">Regresar</button>`);
   document.write(`</div>`);
 } else
