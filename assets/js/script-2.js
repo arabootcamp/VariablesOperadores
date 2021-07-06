@@ -6,14 +6,14 @@ let num2 = parseFloat(prompt("Ingrese el segundo número"));
 //Se comprueba que se ingresarón números y que sean mayores a cero
 if (!isNaN(num1) && !isNaN(num2) && num1 > 0 && num2 > 0) {
 
-  //Se definen las variables y se les asigna el valor asociado a la operación aritmética sobre los números ingresados.
+  //Se definen las variables y se les asigna el resultado de la operación aritmética sobre los números ingresados.
   let addition = num1 + num2;
   let subtraction = num1 - num2;
   let multiplication = num1 * num2;
   let division = num1 / num2;
   let module = num1 % num2;
 
-  //Se imprime en el html el resultado de cada operación aritmética 
+  //Se imprime en el html el resultado los números ingresados y el resultado de cada operación aritmética 
   document.write(`<div class="container my-5">`);
   document.write(`<h2>Para los números ingresados ${num1} y ${num2}, los resultados de las operaciones aritméticas son:</h2>`);
   document.write(`<p>Suma: ${(addition).toFixed(2)} <p>`);

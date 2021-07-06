@@ -3,11 +3,11 @@ let tCelsius = parseFloat(prompt("Ingrese un número para la temperatura en grad
 
 //Se comprueba que se ingresó un número
 if (!isNaN(tCelsius)) {
-  //Se definen las variable que almacenaran los resultados y se asigna el valor de la operacion matemática para obtener la temperatura en Kelvin y Fahrenheit
+  //Se definen las variable que almacenaran los resultados y se les asigna el valor de la operacion matemática para obtener la temperatura en Kelvin y Fahrenheit
   let tKelvin = tCelsius + 273.15;
   let tFahrenheit = (tCelsius * 9 / 5) + 32;
 
-  //Se imprime en el html el resultado de la conversión realizada
+  //Se imprime en el html el dato ingresado por el usuario y los resultados de la conversión realizada
   document.write(`<div class="container my-5">`);  
   document.write(`<h2>${tCelsius} grados Celsius quivalen a:</h2>`);
   document.write(`<p>${(tKelvin).toFixed(2)} grados Kelvin<p>`);

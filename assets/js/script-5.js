@@ -9,9 +9,9 @@ function CalculationsWithNumbers() {
   for (let i = 0; i < 5; i++) {
     //Se convierte a decimal y se almacena en el array el número ingresado por el usuario
     arrayNums.push(parseFloat(prompt(`Ingrese ${i+1}° número de 5`)));
-    //Se valida que el número ingresado sea un número
+    //Se comprueba que se ingreso un número
     if (!isNaN(arrayNums[i]))
-      //A la suma actual se le suma el número ingresado
+      //A la variable suma se le asigna la suma actual más el número ingresado
       sum += arrayNums[i];
     else {
       //Si no se ingreso un número se envia una alerta y se hace un return para terminar la función
