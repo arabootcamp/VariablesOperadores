@@ -15,8 +15,8 @@ if (!isNaN(num1) && !isNaN(num2) && num1 > 0 && num2 > 0) {
 
   //Se imprime en el html el resultado de cada operación aritmética 
   document.write(`<div class="container my-5">`);
-  document.write("<h2>Los resultados de las operaciones aritméticas son:</h2>");
-  document.write(`<p>Suma: ${(addition)..toFixed(2)} <p>`);
+  document.write(`<h2>Para los números ingresados ${num1} y ${num2}, los resultados de las operaciones aritméticas son:</h2>`);
+  document.write(`<p>Suma: ${(addition).toFixed(2)} <p>`);
   document.write(`<p>Resta: ${(subtraction).toFixed(2)} <p>`);
   document.write(`<p>Multiplicación: ${(multiplication).toFixed(2)} <p>`);
   document.write(`<p>división: ${(division).toFixed(2)} <p>`);
